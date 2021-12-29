@@ -56,21 +56,33 @@ img.main {
 }
 img {
   width: 100%; 
+  border: 1px solid rgba(255,255,255,0.2);
 }
 .items {
 /*
   max-width: 500px;
   margin: 30px auto;
   */
+  display: flex;
+  flex-wrap: wrap;
 }
 .items a {
+/*
   color: rgba(0,0,0,0.8);
+  */
+  color: white;
   display: inline-block;
 }
 .item {
+  border-radius: 2px;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  margin: 20px;
+/*
   background: rgba(0,65,255,0.06);
-  max-width: 500px;
   margin: 20px auto;
+  */
+  max-width: 500px;
   padding: 20px;
   /*
   margin: 20px 0;
@@ -82,7 +94,7 @@ img {
   */
 }
 .item p {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 b {
   letter-spacing: -1px;
