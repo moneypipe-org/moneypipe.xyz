@@ -13,6 +13,9 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
 <style>
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   margin: 0;
   font-family: Sans-serif;
   /*
@@ -94,7 +97,6 @@ img {
   */
 }
 .item p {
-  opacity: 0.8;
 }
 b {
   letter-spacing: -1px;
@@ -123,6 +125,14 @@ nav {
   border: 1px solid rgba(0,0,0,0.8); 
   background: white;
 }
+strong {
+  margin-bottom: 5px;
+  color: gold;
+  padding: 2px 5px;
+  border-left: 4px solid gold;
+  color gold;
+  display: block;
+}
 </style>
 </head>
 <body>
@@ -142,12 +152,17 @@ nav {
 <div class='items'>
   <div class='item'>
     <a href="https://stream.moneypipe.xyz"><b>1. stream</b></a>
-    <p>create a group that auto-splits and streams money to members in realtime</p>
+    <p>create a group that auto-splits ETH and streams money to members in realtime</p>
     <img src="pipe.png">
   </div>
   <div class='item'>
     <a href="https://buffer.moneypipe.xyz"><b>2. buffer</b></a>
-    <p>create a group to collect money and let members withdraw their share</p>
+    <p>create a group to collect ETH and let members withdraw their share</p>
+    <img src="buffer.png">
+  </div>
+  <div class='item'>
+    <a href="https://buffer2.moneypipe.xyz"><b>3. buffer2</b></a>
+    <p><strong>Recommended (new)</strong> create a group to collect ETH and ERC20 tokens (including WETH) and let members withdraw their share</p>
     <img src="buffer.png">
   </div>
 </div>
